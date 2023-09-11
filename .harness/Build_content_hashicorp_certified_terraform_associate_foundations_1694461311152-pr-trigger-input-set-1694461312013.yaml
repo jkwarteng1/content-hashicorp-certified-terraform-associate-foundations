@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_content_hashicorp_certified_terraform_associate_foundations_1694461311152-pr-trigger-input-set
+  identifier: Build_content_hashicorp_certified_terraform_associate_foundations_1694461311152prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_content_hashicorp_certified_terraform_associate_foundations_1694461311152
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
